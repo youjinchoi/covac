@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/youjinchoi/covac/issues"
   },
-  "homepage": "https://github.com/youjinchoi/covac#readme"
+  "homepage": "https://github.com/youjinchoi/covac#readme",
+  "devDependencies": {
+    "@openzeppelin/truffle-upgrades": "^1.7.0",
+    "@truffle/hdwallet-provider": "^1.4.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.1.0",
+    "truffle": "^5.3.8"
+  }
 }
