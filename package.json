@@ -1,0 +1,19 @@
+{
+  "name": "covac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youjinchoi/covac.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youjinchoi/covac/issues"
+  },
+  "homepage": "https://github.com/youjinchoi/covac#readme"
+}
