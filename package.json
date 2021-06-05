@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy:local": "truffle migrate --network development",
+    "deploy:testnet": "truffle migrate --network binanceTestnet",
+    "console:testnet": "truffle console --network binanceTestnet"
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,8 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.1.0",
+    "@openzeppelin/contracts-upgradeable": "^4.1.0",
+    "ethereumjs-testrpc": "^6.0.3",
     "truffle": "^5.3.8"
   }
 }
